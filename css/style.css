@@ -1,0 +1,542 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.name {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+.subscribe {
+  margin: 0;
+}
+.socialmedia {
+  display: flex;
+}
+.fb {
+  padding: 13px 13px;
+}
+.fb:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+}
+.inst {
+  padding: 13px 13px;
+}
+.inst:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.sc {
+  padding: 13px 13px;
+}
+.sc:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.tw {
+  padding: 13px 13px;
+}
+.tw:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.fl {
+  padding: 13px 13px;
+}
+.fl:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.lk {
+  padding: 13px 13px;
+}
+.lk:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.search {
+  padding: 13px 13px;
+}
+.search:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.title {
+  text-align: center;
+  padding: 40px;
+}
+.tlh {
+  display: flex;
+  padding-left: 610px;
+  text-align: center;
+}
+.tlh1 {
+  padding-left: 7px;
+  /* background-color: black;
+    color: white;  */
+  padding-top: 6.5px;
+}
+.blog {
+  background-image: url(/assests/images/jane.jpg);
+  height: 150vh;
+  /* position: relative; */
+  /* display: inline-block; */
+}
+.txt {
+  position: absolute;
+  color: white;
+  padding-top: 500px;
+  padding-left: 50px;
+  font-size: x-large;
+}
+
+.txt1 {
+  background-color: white;
+  width: 40%;
+  text-transform: uppercase;
+  padding: 20px 32px;
+  text-align: center;
+  opacity: 0.6;
+  color: black;
+}
+.txt1:hover {
+  cursor: pointer;
+  background-color: white;
+
+  /* padding: 0%; */
+}
+
+.txt1 p {
+    font-weight: 600;
+}
+.container {
+  display: flex;
+  /* width: 100%;  */
+  /* text-align: center; */
+  /* color:white ; */
+}
+.backg {
+  /* background-color: #fff; */
+}
+.hero{
+    background-color: #fff;
+    margin:0px 19px;
+    
+}
+.herotxt {
+  display: flex;
+  text-align: center;
+  padding-left: 390px;
+  word-spacing: 3px;
+  align-items: center;
+  font-size: larger;
+}
+.herotxt1 {
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.herotxt3 {
+  padding: 50px;
+  /* padding-top:none ; */
+  letter-spacing: 1px;
+}
+.hero img {
+  width: 850px;
+  padding-left: 70px;
+}
+.avtr {
+  /* background-color: black; */
+  padding-right: 20px;
+}
+.imgt img {
+  width: 500px;
+  /* height: 1000px; */
+  padding-top: 70px;
+  filter: grayscale(70%);
+  background-color: #fff;
+}
+
+.avtr h4 {
+  /* color: white; */
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 0%;
+  /* margin-bottom: 20px;  */
+}
+.pplr {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+.denimparent:hover {
+  background-color: silver;
+}
+.denimparent {
+  display: flex;
+  background-color: #fff;
+}
+
+.denimimg img {
+  margin: 0%;
+  height: 55px;
+  width: 50px;
+  padding: 15px;
+}
+.denimparent {
+  margin: 0%;
+  padding: 0%;
+}
+.textd h3 {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  size: 20px;
+}
+.textd p {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.textd {
+  padding-top: 25px;
+}
+.sweaterparent:hover {
+  background-color: silver;
+}
+.sweaterparent {
+  display: flex;
+  background-color: #fff;
+}
+
+.sweaterimg img {
+  margin: 0%;
+  height: 55px;
+  width: 50px;
+  padding: 15px;
+}
+.sweaterparent {
+  margin: 0%;
+  padding: 0%;
+}
+.texts h3 {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  size: 20px;
+}
+.texts p {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.texts {
+  padding-top: 25px;
+}
+.workparent:hover {
+  background-color: silver;
+}
+.workparent {
+  display: flex;
+  background-color: #fff;
+}
+
+.workimg img {
+  margin: 0%;
+  height: 55px;
+  width: 50px;
+  padding: 15px;
+}
+.workparent {
+  margin: 0%;
+  padding: 0%;
+}
+.textw h3 {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  size: 20px;
+}
+.textw p {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.textw {
+  padding-top: 25px;
+}
+.trendparent:hover {
+  background-color: silver;
+}
+.trendparent {
+  display: flex;
+  background-color: #fff;
+}
+
+.trendimg img {
+  margin: 0%;
+  height: 55px;
+  width: 50px;
+  padding: 15px;
+}
+.trendparent {
+  margin: 0%;
+  padding: 0%;
+}
+.textt h3 {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  size: 20px;
+}
+.textt p {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.textt {
+  padding-top: 25px;
+}
+hr {
+  margin: 0%;
+}
+.thumbup {
+  display: flex;
+  align-items: center;
+  gap: 650px;
+  padding-left: 50px;
+  letter-spacing: 1px;
+  margin: 0%;
+}
+.rep {
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 700px; */
+  margin: 0%;
+  background-color: #000;
+  color: #fff;
+}
+.rep p {
+  margin: 0%;
+  padding: 0%;
+  justify-content: space-between;
+  padding: 10px;
+  /* background-color: #000; */
+}
+.one p {
+  /* padding: 2px; */
+  /* margin: 20px; */
+  /* color: #fff; */
+}
+
+.one {
+  background-color: #000;
+}
+
+.repli {
+  color: #fff;
+  padding-left: 12px;
+
+}
+.replies:hover{
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.replies {
+  display: flex;
+  background-color: #000;
+  gap: 10px;
+  width: 110px;
+}
+
+.one p {
+  color: #000;
+}
+
+.one {
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.like {
+    border: 1px solid #ccc;
+    /* border-color: #000;
+    border-width: 1px;
+    border-style: solid; */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.like:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.like-text h6 {
+    margin: 0%;
+    font-size: 15px;
+}
+.george{
+    display: flex;
+}
+.textg{
+    display: flex;
+    /* align-items: center; */
+    padding-left: 50px;
+    
+}
+.text1g{
+    /* display: flex; */
+    gap: 20px;
+    padding-left:7px;
+}
+.georgeimg img{
+    height: 100px;
+    width: 100px;
+    padding-left: 50px;
+}
+.main{
+    width: 62%;
+    padding-left: 50px;
+    background-color:#fff;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.main-text{
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 400px;
+}
+.runway img{
+     width: 900px;
+}
+/* .main-text p{
+    padding-right: 200px;
+} */
+.mainthumb{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    justify-content: space-between;
+    padding: 30px 0px;
+    margin-right: 30px;
+    
+}
+
+.sometext {
+    padding-right: 30px;
+}
+.mainth {
+    /* padding: 5px 10px; */
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    /* margin: 0%; */
+    color: #000;
+    padding: 10px 20px;
+    align-items: center !important;
+    
+}
+.lik{
+    margin: 0%;
+    
+    }
+
+    .lik p {
+        margin: 0%;
+    }
+.mainth:hover{
+    cursor: pointer;
+    background-color: #ccc;
+
+}
+.reply {
+    color: #fff;
+    padding-left: 12px;
+  }
+  .repies:hover{
+    background-color: #ccc;
+    
+    cursor: pointer;
+}
+  
+  .repies {
+    display: flex;
+    background-color: #000;
+    gap: 10px;
+    width: 110px;
+    /* margin-bottom: 70px; */
+  }
+  .three{
+    background-color: #fff;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  }
+footer{
+    
+    background-color: #616161;
+    align-items: center;
+    margin: 0%;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+.mian{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    width: 130px;
+    /* padding: 20px; */
+    margin: 30px;
+}
+.arrow{
+    padding-left: 15px;
+}
+.power{
+    margin-bottom:70px ;
+    color: #fff;
+    /* padding: 10px; */
+    margin: 30px
+}
+.power a{
+    color: #fff;
+    ;
+}
+
+
+
+.container {
+    background-color: #F1F1F1;
+    padding-top: 20px;
+}
+
+.arrow-text a {
+    color: #fff;
+    text-decoration: none;
+}
